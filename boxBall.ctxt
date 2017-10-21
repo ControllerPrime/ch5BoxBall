@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=BouncingBall
-comment0.text=\r\n\ Class\ BouncingBall\ -\ a\ graphical\ ball\ that\ observes\ the\ effect\ of\ gravity.\ The\ ball\r\n\ has\ the\ ability\ to\ move.\ Details\ of\ movement\ are\ determined\ by\ the\ ball\ itself.\ It\r\n\ will\ fall\ downwards,\ accelerating\ with\ time\ due\ to\ the\ effect\ of\ gravity,\ and\ bounce\r\n\ upward\ again\ when\ hitting\ the\ ground.\r\n\r\n\ This\ movement\ can\ be\ initiated\ by\ repeated\ calls\ to\ the\ "move"\ method.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ (mik)\r\n\ @author\ David\ J.\ Barnes\r\n\ @author\ Bruce\ Quig\r\n\r\n\ @version\ 2011.07.31\r\n
-comment1.params=xPos\ yPos\ ballDiameter\ ballColor\ groundPos\ drawingCanvas
-comment1.target=BouncingBall(int,\ int,\ int,\ java.awt.Color,\ int,\ Canvas)
+comment0.target=boxBall
+comment0.text=\r\n\ Expanded\ the\ original\ and\ added\ the\ left,\ right\ and\ ceiling\ so\ the\ balls\ do\ not\ excape.\r\n\ Added\ random\ class\ for\ speed,\ size\ and\ color\ of\ the\ balls.\ \r\n\ Added\ the\ ability\ for\ the\ user\ to\ add\ a\ number\ of\ balls.\r\n\r\n\ This\ movement\ can\ be\ initiated\ by\ repeated\ calls\ to\ the\ "move"\ method.\r\n\ \r\n\ @author\ James\ Sepanak\r\n\r\n\ @version\ 2017.10.21\r\n
+comment1.params=groundPos\ lWall\ cWall\ rWall\ drawingCanvas
+comment1.target=boxBall(int,\ int,\ int,\ int,\ Canvas)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BouncingBall\r\n\r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ ball\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ ball\r\n\ @param\ ballDiameter\ \ the\ diameter\ (in\ pixels)\ of\ the\ ball\r\n\ @param\ ballColor\ \ the\ color\ of\ the\ ball\r\n\ @param\ groundPos\ \ the\ position\ of\ the\ ground\ (where\ the\ wall\ will\ bounce)\r\n\ @param\ drawingCanvas\ \ the\ canvas\ to\ draw\ this\ ball\ on\r\n
 comment2.params=
 comment2.target=void\ draw()
